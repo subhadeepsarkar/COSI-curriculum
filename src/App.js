@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import RoundedBox from './components/RoundedBox';
+import Arrow from './components/Arrow';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <div className="flex flex-col items-center justify-center space-y-4 p-6 bg-gray-100 min-h-screen">
+        <RoundedBox
+          title="COSI 10a"
+          content="Problem Solving in Python"
+        />
+        <Arrow />
+        <RoundedBox
+          title="COSI 12b"
+          content="Programming in Java"
+        />
+        <Arrow />
+        <RoundedBox
+          title="COSI 114a"
+          content="Fundamentals of NLP I"
+        />
+      </div>
+      <Footer />
     </div>
   );
 }
