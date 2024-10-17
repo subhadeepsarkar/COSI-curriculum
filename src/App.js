@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import RoundedBox from './components/RoundedBox';
-import Arrow from './components/Arrow';
+// import RoundedBox from './components/RoundedBox';
+// import Arrow from './components/Arrow';
 import CollapsibleFlowchart from './components/CollapsibleFlowchart';
-import CollapsibleNodeFlowchart from './components/CollapsibleNodeFlowchart';
+// import CollapsibleNodeFlowchart from './components/CollapsibleNodeFlowchart';
 
 function App() {
   return (
