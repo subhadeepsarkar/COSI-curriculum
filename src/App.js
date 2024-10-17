@@ -4,13 +4,15 @@ import Footer from './components/Footer';
 import RoundedBox from './components/RoundedBox';
 import Arrow from './components/Arrow';
 import CollapsibleFlowchart from './components/CollapsibleFlowchart';
+import CollapsibleNodeFlowchart from './components/CollapsibleNodeFlowchart';
 
 function App() {
   return (
     <div>
       <Header />
       <CollapsibleFlowchart />
-      <div className="flex flex-col items-center justify-center space-y-4 p-6 bg-gray-100 min-h-screen">
+      {/* <CollapsibleNodeFlowchart /> */}
+      {/* <div className="flex flex-col items-center justify-center space-y-4 p-6 bg-gray-100 min-h-screen">
         <RoundedBox
           title="COSI 10a"
           content="Problem Solving in Python"
@@ -25,7 +27,7 @@ function App() {
           title="COSI 114a"
           content="Fundamentals of NLP I"
         />
-      </div>
+      </div> */}
       <Footer />
     </div>
   );
