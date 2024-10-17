@@ -3,11 +3,13 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import RoundedBox from './components/RoundedBox';
 import Arrow from './components/Arrow';
+import CollapsibleFlowchart from './components/CollapsibleFlowchart';
 
 function App() {
   return (
     <div>
       <Header />
+      <CollapsibleFlowchart />
       <div className="flex flex-col items-center justify-center space-y-4 p-6 bg-gray-100 min-h-screen">
         <RoundedBox
           title="COSI 10a"
